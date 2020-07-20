@@ -2,4 +2,8 @@ display_name,stub,dropdown_parent
 Home,/
 Browse,/browse.html
 Conferences,/conferences.html
+Theses,,,
+MA Thesis,/ma-thesis.html,Theses
+Senior Thesis,/honorthesis.html,Theses
+Digital Archives,/digitalarchives.html
 About,/about.html
