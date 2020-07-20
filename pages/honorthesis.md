@@ -1,7 +1,7 @@
 ---
 title: Honors Senior Thesis
 layout: honorthesis
-permalink: /honorthesis/
+permalink: /honorthesis.html
 ---
 
 ## Honors Program Senior Thesis
