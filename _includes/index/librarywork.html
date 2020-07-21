@@ -1,0 +1,12 @@
+{%- assign formats = site.data[site.metadata] | map: "format" -%}
+{%- assign types = "image;audio;video;application" | split: ";" -%}
+<div class="card mb-3" >
+    <div class="card-body">
+        <h5 class="card-title">Library and Archives Work History</h5>
+        <p class="card-text">
+            <a href="https://cc3199.github.io/portfolio/specialcollections.html">Special Collections</a>
+            <br><a href="https://cc3199.github.io/portfolio/digitalcollections.html">Digital Collections</a><br>
+            <br><a class="btn btn-outline-primary" href="{{ '/objects/pincock_resume_lib.pdf' | absolute_url }}" >View my library resume</a>
+        </p>
+    </div>
+</div>
