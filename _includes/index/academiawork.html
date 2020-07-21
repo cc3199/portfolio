@@ -1,0 +1,11 @@
+{%- assign formats = site.data[site.metadata] | map: "format" -%}
+{%- assign types = "image;audio;video;application" | split: ";" -%}
+<div class="card mb-3" >
+    <div class="card-body">
+        <h5 class="card-title">Academic</h5>
+        <p class="card-text">
+            <a href="https://cc3199.github.io/portfolio/teachingassistant.html">Graduate Teaching Assistant</a>
+            <p><a class="btn btn-outline-primary" href="{{ '/objects/pincock_resume.pdf' | absolute_url }}" >View my academic resume</a></p>
+        </p>
+    </div>
+</div>
