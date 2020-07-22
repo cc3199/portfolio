@@ -1,11 +1,11 @@
 <div class="card mb-3">
-  <span class="border border-info">
+  <span class="bg-secondary">
   <div class="card-body">
-    <h5 class="card-title">Description</h5>
-    <p class="card-text">This website exhibits my work experience with anthropology and digital archives. This allows for further exploration into my projects, passions, and skills and a place to access my CV and resume. Because I have a variety of work experience in different fields, you can view my resumes for the specific fields on the right.</p>
+    <h5 class="text-light" class="card-title">Description</h5>
+    <p class="text-light" class="card-text">This website exhibits my work experience with anthropology and digital archives. This allows for further exploration into my projects, passions, and skills and a place to access my CV and resume. Because I have a variety of work experience in different fields, you can view my resumes for the specific fields on the right.</p>
     {%- assign about = site.data.config-nav | where: "stub","/about.html" | size -%}
-    {% if about > 0 %}<a class="btn btn-outline-primary" href="{{ '/about.html' | relative_url }}" >Learn More &raquo;</a>{% endif %} 
-    <a class="btn btn-outline-primary" href="{{ '/objects/Pincock_CV.pdf' | absolute_url }}" >View my CV </a>
+    {% if about > 0 %}<a class="btn btn-outline-info" href="{{ '/about.html' | relative_url }}" >Learn More &raquo;</a>{% endif %} 
+    <a class="btn btn-outline-info" href="{{ '/objects/Pincock_CV.pdf' | absolute_url }}" >View my CV </a>
   
   </div>
 </div>
