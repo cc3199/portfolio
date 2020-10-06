@@ -9,7 +9,7 @@ permalink: /about.html
 
 {% include about/feature-card.html %}
 
-# About {{ site.title }}.
+# About Chelsea Pincock.
 
 Hey I'm Chelsea Pincock (formerly Chelsesa Codling). I have made this online portfolio as a sort of interactive CV of mine. This way, you can actually see my work and projects mentioned in my CV rather than just reading the title!
 
