@@ -8,9 +8,9 @@
 # URL VARIABLES
 #
 # url is your gh-pages base, following the pattern: username.github.io
-url: https://cc3199.github.io
+url:
 # baseurl is your github repository's name prefixed with a /
-baseurl: /portfolio
+baseurl:
 # location of code, the full url to your github repository
 source-code: https://github.com/cc3199/portfolio
 
